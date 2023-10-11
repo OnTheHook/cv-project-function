@@ -50,7 +50,7 @@ export const Skills = (props) => {
     setState({ ...state, isSubmitted: false });
   };
 
-  const { skill, skills } = state;
+  const { skill } = state;
   let form = (
     <div>
       <ul>
